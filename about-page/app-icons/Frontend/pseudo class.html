@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body{
+    background-color: blue;
+}
+.nav{
+    height: auto;
+    background-color: rgb(244, 249, 249);
+    width: 100%;
+    border-radius: 3%;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    line-height: 2;
+    font-size: 24px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: rgb(17, 11, 0);
+}
+.nav-items a:hover{
+    border-bottom: 2px solid rgb(6, 4, 0);
+}
+    </style>
+</head>
+<body>
+        <div class="nav">
+        <ul class="nav-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </div>
+</body>
+</html>

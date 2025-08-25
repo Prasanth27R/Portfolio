@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+      text-align: center;
+      font-family: Arial;
+      margin-top: 50px;
+    }
+
+    #switch {
+      display: none;
+    }
+
+    .bulb {
+      width: 100px;
+      height: 180px;
+      background-image: url('C:\Users\prasa\OneDrive\Documents\Frontend\bulb off.webp');
+      background-size: cover;
+      margin: 20px auto;
+      transition: background-image 0.3s ease-in-out;
+    }
+
+    #switch:checked + .bulb {
+      background-image: url('C:\Users\prasa\OneDrive\Documents\Frontend\bulb on');
+    }
+
+    label {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Light Bulb</h1>
+
+    <input type="checkbox" id="switch">
+    <div class="bulb"></div>
+    <label for="switch">Bulb</label>
+</body>
+</html>

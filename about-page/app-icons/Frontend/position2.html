@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>panels</title>
+    <style>
+   .circle-layout {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #f4f4f4;
+}
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  background: navy;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background: blueviolet;
+  transform: rotate(calc(45deg * var(--i))) translate(200px) rotate(calc(-45deg * var(--i)));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="circle-layout">
+  <div class="center">center div</div>
+  <div class="panel" style="--i:1;">panel-1</div>
+  <div class="panel" style="--i:2;">panel-2</div>
+  <div class="panel" style="--i:3;">panel-3</div>
+  <div class="panel" style="--i:4;">panel-4</div>
+  <div class="panel" style="--i:5;">panel-5</div>
+  <div class="panel" style="--i:6;">panel-6</div>
+  <div class="panel" style="--i:7;">panel-7</div>
+  <div class="panel" style="--i:8;">panel-8</div>
+
+</div>
+
+</body>
+</html>

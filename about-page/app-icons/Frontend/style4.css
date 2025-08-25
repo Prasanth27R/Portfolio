@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  max-width: 700px;
+  width: 100%;
+}
+
+.Profile {
+  background-color: navy;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.Profile .profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.Profile h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.Profile p {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.Description {
+  flex: 2;
+  padding: 30px;
+}
+
+.Description h3 {
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+hr {
+  margin-bottom: 20px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.info, .projects {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info p, .projects p {
+  margin: 0;
+}
+
+.info span, .projects span {
+  color: gray;
+}
+
+.Social-Icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.Social-Icons a {
+  background-color: navy;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+.Social-Icons a:hover {
+  background-color:#009ca4;
+}

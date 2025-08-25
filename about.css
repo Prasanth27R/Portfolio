@@ -1,0 +1,221 @@
+/* fonts */
+
+/* .pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+/* .edu-nsw-act-hand-pre-<uniquifier> {
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* .edu-qld-hand-<uniquifier> {
+  font-family: "Edu QLD Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* .roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+
+/* 
+.kalnia-glaze-<uniquifier> {
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+/* 
+.merienda-<uniquifier> {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* 
+.alkatra-<uniquifier> {
+  font-family: "Alkatra", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* /* /* .dancing-script-<uniquifier> { */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  
+}
+
+
+body{
+  background-color: #080808;
+}
+.age{
+  color: white;
+  /* display: inline-block; */
+  left: 500px;
+  position: absolute;
+
+}
+
+
+.container{
+width: 300px;
+height: 70px;
+background-color: gray;
+font-family: "Roboto", sans-serif;
+border-top-right-radius: 60px;
+border-bottom-right-radius: 20px;
+position: absolute;
+
+
+
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: px;
+    padding-right: 40px;
+    padding-left: 5px;
+    
+
+
+}
+H6{
+
+}
+p{
+  font-family: "Edu QLD Hand",  cursive;
+  
+}
+.heading{
+         width: 270px;
+         height: 400px;
+         background-color: red;
+         margin-top: 14px;
+         border: 5px solid yellow;
+         border-radius: 5px;
+}
+
+/* Neon effect text */
+.main{
+    color: white;
+      /* font-family: "Kalnia Glaze", serif; */
+    font-size: 40px;
+     margin-left: 10px;
+    font-size: 50px;
+    font-family: "Merienda", cursive;
+     text-align: center;
+     padding-top: 100px;
+}
+.para{
+    margin-left: 50%;
+}
+.detail{
+      background-color: #080808;
+      display: inline-block;
+      width: 800px;
+      height: px;
+      margin-left: 170%;
+      position: absolute;
+      color: white;
+      top: 100px;
+      border: 2px solid gray ;
+
+    
+      
+
+}
+
+.detail h5{
+     color: gray;
+      /* font-family: "Merienda", cursive; */
+      font-family: "Alkatra", system-ui;
+      font-size: 30px;
+}
+.detail p{
+  font-family: "Merienda", cursive;
+  color: yellow;
+  word-spacing: 5px;
+  font-size: 18px;
+  display: inline;
+  padding-right: 100px;
+              
+    
+}
+.hi{
+        width: 500px;
+        height: 100px;
+        /* background-color: yellow; */
+        /* border: 2px solid gray; */
+        margin-top: 20%;
+        margin-left: 500px;
+
+       
+       
+}
+.name{
+      padding-left: 20px;
+      display: inline;
+      font-size: 15px;
+      color: wheat;
+}
+.age{
+    padding-right:20px ;
+    display: inline;
+    margin-left: 400px;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: ;
+}
+.email{
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 15px;
+  color: white;
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

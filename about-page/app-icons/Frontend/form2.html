@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: yellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      width: 800px;
+      border-radius: 15px;
+
+    }
+
+    .form-section {
+      background:blueviolet;
+      padding: 30px;
+      flex: 1;
+      color: white;
+    }
+
+
+         .form-section h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .form-section h3 {
+      font-size: 20px;
+      font-weight: bold;
+      color: yellow;
+      margin-bottom: 20px;
+    }
+
+    .form-section input,
+    .form-section select {
+      width: 100%;
+      padding: 10px;
+      border: blanchedalmond;
+      border-radius: 20px;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    .form-section input[type="radio"] {
+      width: auto;
+      margin-right: 5px;
+    }
+
+    .form .checkbox a {
+      color: green;
+      text-decoration: indigo;
+    }
+
+    .form button {
+      width: 100%;
+      background: greenyellow;
+      border: none;
+      border-radius: 20px;
+      padding: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .form .signin {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .form .signin a {
+      color: yellow;
+      text-decoration: underline;
+    }
+
+    .logo-section {
+      background: whitesmoke;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logo-section img {
+      width: 420px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+  <!-- Left: Form -->
+  <div class="form-section">
+    <h2>Signup to</h2>
+    <h3>Join the #Yellow family></h3>
+    </family>
+    
+    <input type="text" placeholder="First Name*" required />
+    <input type="text" placeholder="Last Name*" required />
+    <input type="email" placeholder="Email*" required />
+    
+    <select>
+      <option value="+91">+91</option>
+      <option value="+1">+1</option>
+
+    </select>
+    <input type="tel" placeholder="Enter Mobile Number*" required />
+
+    <input type="date" required />
+    
+    <div class="radio-group">
+      <label><input type="radio" name="gender" /> Male</label>
+      <label><input type="radio" name="gender" /> Female</label>
+    </div>
+
+    <input type="password" placeholder="4 Digit PIN*" maxlength="4" required />
+    <input type="password" placeholder="Re-Enter PIN*" maxlength="4" required /><br>
+
+    <div class="checkbox">
+      <input type="checkbox" > <p>I agree to the terms and conditions</p>
+    </div><br>
+
+    <button>REGISTER</button>
+
+    <div class="signin">
+      Already a member? <a href="#">Sign In</a>
+    </div>
+  </div>
+
+  <!-- Right: Logo -->
+  <div class="logo-section">
+    <img src="csk2.jpg" alt="CSK Logo" />
+  </div>
+</div>
+
+</body>
+</html>

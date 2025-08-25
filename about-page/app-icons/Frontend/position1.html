@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circles</title>
+    <style>
+        .container{
+            height: 100px;
+            width: 100%;
+            position: relative;
+        }
+
+        .circle{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        /*positions*/
+        .static   { background: red;   top: 100px; left: 150px; }
+        .fixed    { background: blue;     top: 100px; left: 320px; }
+        .sticky   { background: yellow; top: 100px; left: 490px; }
+        .relative { background: green; top: 200px; left: 220px; }
+        .absolute { background: pink;  color: white; top: 200px; left: 390px; }
+
+
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="circle static">Static</div>
+    <div class="circle relative">Relative</div>
+    <div class="circle fixed">Fixed</div>
+    <div class="circle sticky">Sticky</div>
+    <div class=" circle absolute">Absolute</div>
+</body>
+</html>

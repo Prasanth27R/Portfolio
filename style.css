@@ -1,0 +1,877 @@
+/* fonts */
+
+/* .pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+/* .edu-nsw-act-hand-pre-<uniquifier> {
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* .edu-qld-hand-<uniquifier> {
+  font-family: "Edu QLD Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* .roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+
+/* .dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #050505;
+}
+
+h1{
+   font-family: "Pacifico", cursive;
+   color: #e8e8e8 ;
+   font-size: 40px;
+   margin-left: 60px;
+   display: inline;
+   margin-top: 40px;
+   position: relative;
+   animation-name: h1-animation;
+   animation-duration: 1s;
+  animation-timing-function: ease;
+      /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+      animation-iteration-count: 1;
+    
+}
+ul,li:a{
+  color: white;
+}
+ul,li{
+    color: white;
+    display: inline;
+  
+}
+li{
+    padding-left: 60px;
+    
+    color: white;
+}
+ul{
+    margin-left:50% ;
+    
+    position: absolute;
+    top: 20px;
+    font-size: 0px;
+    
+
+}
+.contant{
+  background-color: #050505;
+  width: 200px;
+  height: 90px;
+  margin-top: 200px;
+  margin-left: 50px;
+  animation-name: contant-animation ;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+      /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+      animation-iteration-count: 1;
+      font-size: 30px;
+
+}
+.Nav-bar{
+    display: inline;
+    font-family: "Roboto", sans-serif;
+    
+
+}
+
+
+.typing-demo{
+  font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+  
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  
+}
+#exp{
+     width: 150px;
+     position: absolute;
+     margin-top: 70px;
+     border-radius: 50px;
+     padding-bottom: 2px;
+     border: none;
+     border-color: #808080;
+     font-size: 25px;
+     font-family: "Dancing Script", cursive;
+     background-color: gray;
+     color: white;
+}
+
+#exp:hover{
+          cursor: pointer;
+          background-color: #050505;
+
+}
+
+#exp1{
+     width: 150px;
+     position: absolute;
+     border-radius: 50px;
+     margin-top: 70px;
+     margin-left:160px ;
+     margin-bottom: 110px;
+     padding-bottom: px;
+     padding: 5px;
+     font-size: 20px;
+     font-family: "Dancing Script", cursive;
+     border: none;
+     color: white;
+     background-color: red;
+    
+
+
+}
+#exp1:hover{
+  background-color: #050505;
+          
+}
+.btn {
+    margin-left: 50px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 110px;
+    font-family:"Pacifico",cursive;
+    border: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    animation-name: btn-animation;
+    animation-duration: 2s;
+
+
+
+}
+.cont{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  margin-left: 65%;
+  bottom: 10%; 
+  top: 10%; 
+   animation-name: cont-animation;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+      animation-iteration-count: 1;
+}
+
+
+
+img{
+  width: 600px;
+  height: 300px;
+  display: inline-block;
+
+}
+img:hover{
+  cursor: pointer;
+ outline-color: #ff0000;
+}
+/* paragraph */
+p{
+  color: gray;
+  display: block;
+  position: absolute;
+}
+
+
+/* h2{
+
+   font-family: "Roboto", sans-serif;
+   display:inline;
+   color: white;
+   background-color: ; */
+
+   
+   
+/* } */
+h2{
+  color: white;
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+  animation: glow 1.5s infinite alternate;
+ 
+
+  
+
+}
+.name{
+  background-color: white;
+  
+
+}
+
+
+
+
+/* link color */
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+.hover-underline {
+  font-size: 15px;
+  color: #ffffff;
+  position: relative;
+  
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ff0000, #00ffff);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}
+
+
+/* 1. Pulse Animation */
+.btn-pulse {
+  background-color: #a6a6a6;
+  color: white ;
+  animation: pulse 1.5s infinite;
+}
+a{
+  color: white;
+}
+
+
+
+li:hover{
+    cursor: pointer;
+    color: #808080;
+    
+  
+}
+#poda{
+  color: #FFD700;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+}
+
+
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+/* Magnifying cursor */
+
+* {box-sizing: border-box;}
+
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  outline-color: white px;
+  border-radius: 50%;
+  cursor: none;
+  box-shadow: #ffffff;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+.cursor
+{
+position: fixed;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color:#f3e2e2aa ;
+transition: 0.1s;
+transform: translate (-50%, -50%);
+pointer-events: none;
+mix-blend-mode: difference;
+}
+ul li:hover .cursor
+{
+transform: scale (6);
+}
+.about{ 
+      width: 140px;
+      height: 50px;
+      background-color: gray;
+      margin-top: 170px;
+      margin-bottom: 40px;
+      padding-top: 20px;
+      display: inline;
+      position: absolute;
+      border-top-right-radius: 50%;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+     
+      
+      
+    }
+      
+/* keyframes */
+
+@keyframes cont-animation{
+  from{transform: translatex(240px);}
+  to{transform: translatex();}
+}
+
+@keyframes btn-animation{
+  from{transform: translatex(240px);}
+  to{transform: translatex();}
+}
+
+/* h2 animation */
+  @keyframes contant-animation{
+     from{transform: translatex(-410px);}
+  to{transform: translatex(px);}
+    
+  }
+
+  @keyframes h1-animation{
+     from{transform: translatex(-410px);}
+  to{transform: translatex(px);}
+
+  }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+/* About session */
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Sevillana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+/* FONTS */
+.sedgwick-ave-display-regular {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.oleo-script-regular {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oleo-script-bold {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+       /* CODES */
+
+.heading{
+    color: white;
+    margin-left: 90px;
+    font-family: Manrope, "Manrope Placeholder", sans-serif;
+    margin-top: 40px;
+    display: inline-block;
+}
+h6{
+    color: white;
+    font-family: Manrope, "Manrope Placeholder", sans-serif;
+     margin-left: 90px;
+     margin-top: 10px;
+     font-size: 10px;
+}
+hr{
+    color: rgb(85, 85, 85);
+    width: 295px;
+    margin-left: 88px;
+    opacity: 0.5;
+}
+.fa-solid{
+    color: white;
+    font-size: 10px;
+    margin-left: 90px;
+    margin-top: 40px;
+    font-family: Manrope, "Manrope Placeholder", sans-serif;
+}
+.f1-solid{
+    color: white;
+    margin-left:px;
+    display: inline;
+    font-size: 14px;
+    
+    
+    
+    
+}
+/* CONTACT SECTION */
+
+#section1{
+  margin-top: 60px;
+  scroll-behavior: smooth;
+}
+
+
+.fa-solid{
+    color: white;
+    font-size: 10px;
+    margin-left: 84px;
+    margin-top: 40px;
+    font-family: Manrope, "Manrope Placeholder", sans-serif;
+    display: inline;
+
+}
+.f1-solid{
+    color: white;
+    margin-left:10px;
+    display: inline;
+    font-size: 14px;
+ 
+}
+/* SKILL SECTION */
+
+#full-contant{
+  margin-top: 35%;
+  
+ 
+  
+}
+
+#about-section {
+  color: wheat;
+ display: inline-block;
+ margin-top: 30%;
+  margin-left: 20px;
+  /* position: absolute; */
+
+
+  /* width: 110px;
+  height: 30px;
+  background-color: gray; */
+ 
+
+
+}
+
+.social-icons{
+  margin-left: 93%;
+  display: inline-block;
+  margin-top:100px;
+}
+.final{
+  margin-left: 35%;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+}
+.final h6{
+  display: inline-block;
+  margin-top: px;
+  margin-left: 700px;
+  color: white;
+}
+ .icon {
+      width: 40px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 26px;
+      color: white;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      margin-top: 20px;
+    }
+     .icon:hover {
+      transform: scale(1.1);
+      background: rgba(255, 255, 255, 0.2);
+      color: #00ffff;
+      box-shadow: 0 10px 25px rgba(0, 255, 255, 0.3);
+    }
+     .text {
+      margin-bottom: 30px;
+      font-size: 1.2rem;
+      font-family: Arial, sans-serif;
+      color: white;
+     
+    }
+  */
+ .final{
+  color: red;
+  display: inline-block;
+ }
+
+ .fas fa-bars{
+  color: white;
+  font-size: 20px;
+ ]
+  t
+  cursor: pointer;
+ }
+
+i{
+  color: white;
+  margin: 0;
+}
+/* SKILL CONTAINER */
+
+.skill-container{
+ border: 2px solid #808080;
+ width: 500px;
+ height: 460px;
+ margin-left: 58%;
+ margin-top: 40px;
+ position: absolute;
+}
+
+.first-span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    position: ;
+    font-size: 25px;
+    font-style: weight;
+   
+
+}
+/* .chinna-kodu1{
+    width: 30px;
+    
+    color: gray;
+    opacity: 0.5;
+    display: inline-block;
+    margin: 0;
+    margin-top: 15px;
+    rotate: -90deg;
+   font-weight: 900;
+   font-size: large;
+    
+} */
+
+
+
+.second-span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    position:relative;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: ;
+  
+
+ }
+ .third-span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    position: relative;
+   
+    font-size: 25px;
+    top: 10px;
+}
+.fourth-span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    position: relative;
+   
+    font-size: 25px;
+    top: 10px;
+}
+
+/* APP ICONS */
+
+#nxt-box1{
+        border: none;
+        display: flex;
+        position: relative;
+        margin-top: 10px;
+        box-sizing: border-box;
+        animation: nxt-box1-animation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1ms;
+
+       
+}
+
+#nxt-box2{
+        border: none;
+        display: flex;
+        position: relative;
+    
+        margin-top: 29px;
+        box-sizing: border-box;
+        animation: nxt-box2-animation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1ms;
+        font-size: 200px;
+}
+#nxt-box3{
+        width: 351px; 
+        height: 45px;
+        border: none;
+        display: flex;
+        display: absolute;
+        margin-top: 10px;
+        box-sizing: border-box;
+        animation: nxt-box2-animation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1ms;
+}
+#nxt-box-4{
+
+ width: 351px; 
+        height: 45px;
+        border: none;
+        display: flex;
+        display: absolute;
+        margin-top: 10px;
+        box-sizing: border-box;
+        animation: nxt-box2-animation;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1ms;
+}
+.contant{
+  background-color: #050505;
+  width: 200px;
+  height: 90px;
+  margin-top: 190px;
+  margin-left: 50;
+  display: inline-block;
+  animation-name: contant-animation ;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+      /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+      animation-iteration-count: 1;
+
+}
+
+#nxt-box1 img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 30px;
+
+
+}
+#nxt-box2 img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 30px;
+    
+    
+}
+#nxt-box3 img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 30px;
+
+
+}
+#nxt-box-4 img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#nxt-box1 img:hover{
+    scale: 1.2;
+}
+#nxt-box2 img:hover{
+    scale: 1.2;
+}
+      #nxt-box3 img:hover{
+          scale: 1.2;
+      }
+      #nxt-box-4 img:hover{
+          scale: 1.2;
+      }
+
+@media screen and (max-width: 986px) {
+  .Nav-bar ul {
+    display: none;
+    /* ...other styles... */
+  }
+  .Nav-bar ul.active {
+    display: flex;
+  }
+}
+
+/* 
+    /* DOWNLOAD RESUME BUTTON */
+
+    @media screen and (max-width: 600px) {
+      .Nav-bar ul{
+            margin-left: 10px;
+      }
+      .nav-bar li{
+        display: inline;
+      }
+      
+      
+    }
+
+    @media screen and (max-width: 1085px) {
+      
+      ul,li,.Nav-bar{
+        margin-right: 50%;
+        display: block;
+
+      }
+    } 
+   @media screen and (max-width: 986px) {
+  #first-box {
+    width: 95vw;
+    max-width: 100%;
+    margin: 20px auto !important;
+    padding: 15px !important;
+    position: static !important;
+    box-sizing: border-box;
+    display: flex !important;
+    flex-direction: column;
+    text-align: center !important;
+    font-size: 1em !important;
+
+  }
+}
+
+
+
+
+@keyframes about-section-h3-animation{
+   from{transform: translatex(-100px);}
+  to{transform: translatex();}
+} 
+
+
+@media  screen and (max-width: 600px) {
+ .cont{
+
+       display: inline;
+       margin-right: 200%;
+       position:relative;
+  
+}
+
+@media  screen and (max-width: 600px) {
+  .contant{
+
+    margin-top: 90%;
+    margin-left: ;
+    position: relative;
+   text-align: center;
+
+
+  }
+}
+} 

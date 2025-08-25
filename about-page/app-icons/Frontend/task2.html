@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+      font-family: 'Poppins';
+      background: #a7a3a3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      position: relative;
+      width: 200px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    
+    }
+
+     .card img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+    }
+
+    .card .sam {
+      text-align: center;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #e63946;
+      font-family: 'Courier New', monospace;
+    }
+
+    
+    .card .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 240px;
+      background: rgba(0, 0, 0, 0.2);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+     .card:hover .overlay {
+      opacity: 1;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container" style="display: flex;">
+       <div class="card" >
+        <img src="elon musk.jpeg" alt="elon musk">
+        <div class="overlay"></div>
+        <div class="info">Elon Musk</div>
+       </div>
+
+       <div class="card">
+        <img src="bill gates.jpeg" alt="bill gates">
+        <div class="info">Bill Gates</div>
+       </div>
+       <div class="card" >
+        <img src="sundar pichai.jpeg" alt="sundar pichai" >
+        <i class="fa-brands fa-google"></i>
+        <div class="info">Sundar Pichai</div>
+
+       </div>
+
+       <div class="card">
+        <img src="mark zuckerberg.jpeg" alt="mark">
+        <div class="info">Mark zuckerberg</div>
+       </div>
+    </div>
+</body>
+</html>
